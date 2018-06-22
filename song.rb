@@ -14,6 +14,11 @@ class Song
   def get_count
     @@count
   end
+  
+  def self.get_count_other_way
+    @@count
+  end
+  
 end
 
 jon_song = Song.new("Hippity Hoppity", "Jon Mendes", "Jon's Way")
