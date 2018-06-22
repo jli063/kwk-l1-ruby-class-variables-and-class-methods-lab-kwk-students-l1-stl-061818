@@ -1,13 +1,13 @@
 class Song 
   
+  attr_accessor
+  
   def initialize(genre,artist,name)
     @genre=genre
     @artist=artist
     @name=name
   end
-  
 
-  
 end
 
 jon_song = Song.new("Hippity Hoppity", "Jon Mendes", "Jon's Way")
