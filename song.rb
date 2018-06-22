@@ -23,5 +23,7 @@ end
 
 jon_song = Song.new("Hippity Hoppity", "Jon Mendes", "Jon's Way")
 
-
+puts "This is the first method"
 puts jon_song.get_count
+puts "this is the secind method"
+puts Song.get_count_other_way
